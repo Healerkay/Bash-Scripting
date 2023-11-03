@@ -1,12 +1,12 @@
-# while read line
-# do
-#     current_line=$(echo $line)
-#     if [[ $current_line == "james" ]]
-#     then
-#         echo "user matched"
-#     fi
+while read line
+do
+    current_line=$(echo $line)
+    if [[ $current_line == "james" ]]
+    then
+        echo "user matched"
+    fi
 
-# done < "users.txt"
+done < "users.txt"
 
 while read line
 do

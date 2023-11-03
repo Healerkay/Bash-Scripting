@@ -1,20 +1,20 @@
-#!/bin/bash
-# age=12
-# if [ $age -eq 12 ]
+!/bin/bash
+age=12
+if [ $age -eq 12 ]
 
-# then 
-#      echo "positive"
-# else 
-#     echo "negative"
+then 
+     echo "positive"
+else 
+    echo "negative"
 
-# fi
+fi
 
-# numeber=40
+numeber=40
 
-# if [ $numeber -gt 50 ]
+if [ $numeber -gt 50 ]
 
-# then 
-#     echo "right"
-# else
-#     echo "wrong"
-# fi
+then 
+    echo "right"
+else
+    echo "wrong"
+fi
